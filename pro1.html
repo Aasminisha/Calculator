@@ -1,0 +1,62 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to my Calculator Personal Portfolio Website</h1>
+            <p>This website showcases my skills and projects, including a basic calculator.</p>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>Here are some of my notable projects:</p>
+            <ul>
+                <li>Calculator Project</li>
+                <li>Personal Portfolio Website</li>
+            </ul>
+        </section>
+        <section id="resume">
+            <h1>Resume</h1>
+            <p>Here is my resume:</p>
+            <ul>
+                <li>Skills: HTML, CSS, JavaScript</li>
+                <li>Experience: Web Development</li>
+                <li>Education: Bachelor's Degree in Computer Science</li>
+            </ul>
+        </section>
+        <section id="calculator">
+            <h1>Calculator</h1>
+            <form>
+                <input type="number" id="num1" placeholder="Number 1">
+                <select id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value=""></option>
+                    <option value="/">/</option>
+                </select>
+                <input type="number" id="num2" placeholder="Number 2">
+                <button id="calculate">Calculate</button>
+                <p id="result"></p>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
